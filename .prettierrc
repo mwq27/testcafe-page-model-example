@@ -1,0 +1,27 @@
+{
+  "trailingComma": "es5",
+  "useTabs": false,
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "overrides": [{
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "trailingComma": "es5"
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "trailingComma": "all",
+        "parser": "typescript"
+      }
+    }
+  ]
+}
